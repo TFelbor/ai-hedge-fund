@@ -1,6 +1,10 @@
 import os
 import pandas as pd
+<<<<<<< Updated upstream
 import requests
+=======
+from typing import Optional
+>>>>>>> Stashed changes
 
 from data.cache import get_cache
 from data.models import (
