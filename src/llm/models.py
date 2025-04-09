@@ -75,13 +75,18 @@ AVAILABLE_MODELS = [
         provider=ModelProvider.GEMINI
     ),
     LLMModel(
-        display_name="[gemini] gemini-2.0-pro",
-        model_name="gemini-2.0-pro-exp-02-05",
+        display_name="[gemini] gemini-2.5-pro",
+        model_name="gemini-2.5-pro-exp-03-25",
         provider=ModelProvider.GEMINI
     ),
     LLMModel(
         display_name="[groq] llama-3.3 70b",
         model_name="llama-3.3-70b-versatile",
+        provider=ModelProvider.GROQ
+    ),
+    LLMModel(
+        display_name="[groq] llama-4-scout",
+        model_name="meta-llama/llama-4-scout-17b-16e-instruct",
         provider=ModelProvider.GROQ
     ),
     LLMModel(
